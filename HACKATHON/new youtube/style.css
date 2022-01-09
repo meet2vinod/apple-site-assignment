@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    position: sticky;
+    top: 0px;
+    height: 63px;
+    margin-top: 10px;
+}
+.navbar1,.navbar2,.navbar3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.searchbar{
+    height: 25px;
+    width: 600px;
+    text-align: center;
+}
+
+.button{
+    height: 25px;
+width: 22px;
+}
+
+.inner{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.leftside{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 400px;
+    overflow-y: scroll;
+   
+    
+}
+
+.first,.second,.third,.fourth{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+
+.rightside{
+    
+    display: grid;
+    grid-template-rows: 100px 100px 200px;
+    row-gap: 30px;
+    
+}
+.menu{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 32.2px;
+    background-color: white;
+    
+    
+}
+
+.adds{background-color: black;
+  
+    height:120px;
+}
+.videos{
+    height: 440px;
+    background-color: red;
+}
+
+.buttons{
+    border-radius: 10px;
+    width: 100px;
+    height: 34px;
+
+}
+.icon{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+}
+
+#logo{
+    color: red;
+}
+.logo{
+    height: 20px;
+}

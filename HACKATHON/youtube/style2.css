@@ -1,0 +1,9 @@
+.rightbox{
+    display: grid;
+    grid-template-rows:10% 10% 20% 60% ;
+  
+    height: 1000px;}
+
+    .navbar{
+        display: flex;
+    }

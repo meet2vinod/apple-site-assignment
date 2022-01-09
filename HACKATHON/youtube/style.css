@@ -1,0 +1,110 @@
+ *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+          display: grid;
+          grid-template-columns: 20% 80%;
+          height: 1000px;
+        }
+      .rightbox{
+          display: grid;
+          grid-template-rows:10% 10% 20% 60% ;
+        
+          height: 1000px;
+        
+      }
+      .leftbox{
+          background-color: transparent;
+          display: grid;
+          /* grid-template-row: 10% 90%; */
+          height: 900px;
+          line-height: 36px;
+         
+      
+          ;
+      }
+      .leftside{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+      }
+      /* .left1{
+          height: 100px;
+          font-size: 20px;
+          font-weight: bold;
+          color:black;
+          text-align: center;
+          position: sticky;
+          top: 10px;
+      } */
+     
+      /* .bar{
+          position: relative;
+          top: 78px;
+          right: 102px;
+      } */
+      /* .logo{
+          color: red;
+          font-size: 30px;
+          position: relative;
+          right: 65px;
+          top: 44px
+      } */
+      .left2{
+          background-color: transparent;
+          grid-template-columns: 4fr 1fr 1fr 4fr;
+          height: 900px;
+          margin-top: 32px;
+          
+          
+      }
+
+      .first{
+          background-color: transparent;
+          height: 133px;
+          margin-left: 50px;
+      }
+      .second{
+        background-color: transparent;
+        height: 100px;
+        margin-left: 50px;
+    }
+    .third{
+        background-color: transparent;
+        height: 150px;
+        margin-left: 50px;
+    }
+    .fourth{
+        background-color: transparent;
+        height: 517px;
+        margin-left: 50px;
+    }
+      .navbar{
+          display: flex;
+          height: 200px;
+      }
+      .toolbar{
+          display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+   }
+
+      .navbar2{
+          
+          height: 200px;
+      }
+      .navbar3{
+          
+          height: 800px;
+      }
+      .navbar4{
+         
+      }
+    .menu1{
+        display: inline-block;
+        padding: 10px;
+    }
+      .menu2{
+          display: inline;
+      }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .page{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+     
+.parentimage{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 100%;
+    height: 500px;
+}
+.childimage1{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.childimage1 >img{
+    height: 500px;
+    width: 100%;
+}
+.childimage2 > img{
+  
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.childimage3 > img{
+   
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+
+}
+.childimage4 > img{
+  
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.childimage5 > img{
+    
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="page">
+
+        <div class="parentimage">
+            <div class="childimage1">
+                <img src="arbn1.jpg" alt="">
+               
+            </div>
+            <div class="childimage2">
+                <img src="arbn2.jpg" alt="">
+                
+            </div>
+            <div class="childimage3">
+                <img src="arbn3.jpg" alt="">
+             
+
+            </div>
+            <div class="childimage4">
+                <img src="arbn4.jpg" alt="">
+             
+            </div>
+            <div class="childimage5">
+                <img src="arbn5.jpg" alt="">
+             
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
